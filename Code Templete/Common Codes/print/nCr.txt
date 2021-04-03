@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define md 1000000007LL
+#define fRead(x)        freopen(x,"r",stdin)
+LL fact[100010];
+LL inv[100010];
+
+void func()
+{
+
+    fact[0]=1;
+    for(int i =1;i<=1000;i++)
+    {
+        fact[i] = (fact[i-1] * i)%md;
+        inv[i] = BigMod(fact[i],md-2LL,md);
+    }
+}
+
+
+LL ncr(LL a, LL b)
+{
+    LL lob = fact[a];
+    LL hor = (inv[a-b]*inv[b])%md;
+
+    LL ans =(lob*hor)%md;
+    return ans;
+}

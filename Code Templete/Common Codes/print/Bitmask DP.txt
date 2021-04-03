@@ -1,0 +1,78 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define fRead(x)        freopen(x,"r",stdin)
+#define fWrite(x)       freopen (x,"w",stdout)
+
+#define LL              long long
+#define ULL             unsigned long long
+#define pb              push_back
+#define PI              acos(-1.0)
+#define pii             pair<int,int>
+#define pll             pair<LL,LL>
+#define all(a)          a.begin(),a.end()
+#define Unique(a)       sort(all(a)),a.erase(unique(all(a)),a.end())
+#define MEM(a,x)        memset(a,x,sizeof(a))
+#define ABS(x)          ((x)<0?-(x):(x))
+
+
+#define FastRead        ios_base::sync_with_stdio(0);cin.tie(nullptr);
+
+const LL MOD = 1e9 + 7;
+
+template <typename T> inline T BigMod(T A,T B,T M = MOD)
+{
+    T ret = 1;
+    while(B)
+    {
+        if(B & 1) ret = (ret * A) % M;
+        A = (A * A) % M;
+        B = B >> 1;
+    }
+    return ret;
+}
+
+
+int Set(int N,int pos)
+{
+        return N=N | (1<<pos);
+}
+int reset(int N,int pos)
+{
+        return N= N & ~(1<<pos);
+}
+bool check(int N,int pos)
+{
+        return (bool)(N & (1<<pos));
+}
+
+int n;
+
+int dp[(1<<15)+2];
+
+int call(int mask)
+{
+        if(mask==(1<<n)-1) return 0;
+
+        if(dp[mask]!=-1) return dp[mask];
+
+        //Rest of the calculation
+        int ans=1<<28; //Infinite, a large value
+
+        for(int i=0; i<n; i++)
+        {
+                if(check(mask,i)==0)
+                {
+                    //Rest of the code
+                }
+        }
+        return dp[mask]=ans;
+
+}
+
+int main()
+{
+
+
+}

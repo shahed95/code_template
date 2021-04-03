@@ -1,0 +1,132 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define LCM(a,b)                (a / __gcd(a,b) ) *b
+#define GCD(a,b)                __gcd(a,b)
+#define dist(x1,y1,x2,y2)       sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
+#define distl(x1,y1,x2,y2)      sqrtl((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
+#define fRead(x)                freopen(x,"r",stdin)
+#define fWrite(x)               freopen (x,"w",stdout)
+#define LL                      long long
+#define ULL                     unsigned long long
+#define pb                      push_back
+#define tcase                   cout<<"Case "<<C++<<": ";
+#define all(a)                  a.begin(),a.end()
+#define Unique(a)               sort(all(a)),a.erase(unique(all(a)),a.end
+#define ABS(x)                  ((x)<0?-(x):(x))
+#define min3(a,b,c)             min(a,min(b,c))
+#define min4(a,b,c,d)           min(a,min(b,min(c,d)))
+#define max3(a,b,c)             max(a,max(b,c))
+#define max4(a,b,c,d)           max(a,max(b,max(c,d)))
+#define PI                      acos(-1.0)
+#define ff                      first
+#define ss                      second
+#define SP(x,y)                 fixed<<setprecision((y))<<(x)
+#define FastRead                ios_base::sync_with_stdio(0);cin.tie(NULL);
+#define rep(x, l, r)            for (int x = l; x<=r; ++x)
+#define repp(x,r)               for (int x = 0; x <r; ++x)
+#define per(x, l, r)            for (int x = l; x >= r; --x)
+#define perr(x, l)              for (int x = l-1; x >= 0; --x)
+#define NN                      cout<<"\n";
+#define NNN                     cout<<"\n------------------------------\n";
+
+//***********************************************************************//
+//                      SHAHED AHMED, CSE'15, IUT                        //
+//***********************************************************************//
+
+struct matrix
+{
+        LL val[6][6];
+        int ro=0;
+        int col=0;
+
+        matrix(int x,int y)
+        {
+                ro = x;
+                col= y;
+        }
+
+};
+
+matrix matmul(matrix *a, matrix *b)
+{
+        matrix res(a->ro,b->col);
+
+        for(int i=0;i<res.ro;i++)
+        {
+                for(int j=0;j<res.col;j++)
+                {
+                        res.val[i][j]=0;
+
+                        for(int k=0;k<a->col;k++)
+                        {
+                                res.val[i][j]+=a->val[i][k]*b->val[k][j];
+                                res.val[i][j]%=1000000007;
+                        }
+                }
+        }
+        return res;
+}
+
+
+matrix matpow(matrix *a, int n)
+{
+        if(n==1)
+        {
+                return *a;
+        }
+
+        matrix temp(0,0);
+
+        if(n%2==0)
+        {
+                temp = matpow(a,n/2);
+                temp = matmul(&temp,&temp);
+        }
+        else
+        {
+                temp = matpow (a,n-1);
+                temp = matmul (&temp,a);
+        }
+
+        return temp;
+
+}
+
+
+
+
+int main()
+{
+        FastRead
+
+        matrix a(4,4);
+        matrix b(4,1);
+        matrix c(0,0);
+
+        for(int i=0;i<a.ro;i++)
+        {
+                for(int j=0;j<a.col;j++)
+                {
+                        if(i!=j) a.val[i][j]=1;
+                        else a.val[i][j]=0;
+                }
+        }
+
+        b.val[0][0]=1;
+        b.val[1][0]=0;
+        b.val[2][0]=0;
+        b.val[3][0]=0;
+
+
+        int n;
+        cin>>n;
+
+        matrix an(1,1);
+
+        an= matpow(&a,n);
+        c = matmul(&an,&b);
+
+        cout<<c.val[0][0];
+}

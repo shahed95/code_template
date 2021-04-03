@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html><style type="text/css" id="night-mode-pro-style"></style><link type="text/css" rel="stylesheet" id="night-mode-pro-link"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>স্ট্যান্ডার্ড টেম্প্লেট লাইব্রেরী</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/main.css">
+<link rel="stylesheet" href="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/bootstrap.css">
+<link rel="stylesheet" href="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/bootstrap-responsive.css">
+<link rel="stylesheet" href="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/pygments.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.progkriya.org/favicon.png">
+
+<link rel="stylesheet" href="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/bootstrap.html">
+<script id="facebook-jssdk" src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/all.js"></script><script async="" src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/analytics.js"></script><script type="text/x-mathjax-config">
+          MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+<script type="text/javascript" src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/MathJax.html"></script>
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-44538761-1', 'progkriya.org'); ga('send', 'pageview'); 
+        </script>
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_customer_chat_bounce_in{animation-duration:250ms;animation-name:fb_bounce_in}.fb_customer_chat_bounce_out{animation-duration:250ms;animation-name:fb_fade_out}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{height:100%;overflow:hidden;position:fixed;width:100%}@keyframes fb_fade_out{from{opacity:1}to{opacity:0}}@keyframes fb_bounce_in{0%{opacity:0;transform:scale(.8, .8);transform-origin:100% 100%}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8;transform:scale(1.03, 1.03)}90{opacity:.9}100%{opacity:1;transform:scale(1, 1)}}</style></head>
+<body>
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="http://staticxx.facebook.com/connect/xd_arbiter/r/Ms1VZf1Vg1J.js?version=42#channel=f15f6a86d8c1502&amp;origin=http%3A%2F%2Fwww.progkriya.org" frameborder="0"></iframe><iframe name="fb_xdm_frame_https" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/Ms1VZf1Vg1J_002.html" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<div class="container">
+<div class="row">
+<div class="span1 offset3">
+<div class="sidebar">
+<div class="icon">
+<a href="#">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/progkriya50i2.png" title="প্রারম্ভ">
+</a>
+</div>
+<div class="icon">
+<a href="http://www.progkriya.org/news">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/news50.png" title="খবরাখবর">
+</a>
+</div>
+<div class="icon">
+<a href="http://www.progkriya.org/gyan">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/tutorial50.png" title="জ্ঞান">
+</a>
+</div>
+<div class="icon">
+<a href="http://www.progkriya.org/links">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/link50.png" title="লিংক লাইব্রেরি">
+</a>
+</div>
+<div class="icon">
+<a href="http://www.progkriya.org/features">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/feature50.png" title="ফিচার স্টোরি">
+</a>
+</div>
+</div>
+</div>
+<div class="span7">
+<h2>স্ট্যান্ডার্ড টেম্প্লেট লাইব্রেরী</h2>
+<div class="meta">
+<i class="icon-user"></i> ইকরাম মাহমুদ |
+<i class="icon-calendar"></i>মার্চ ২, ২০১০ </div>
+<div class="post">
+<div class="summary">
+</div>
+<div class="greybox">
+<div class="outline1">
+<a href="#section1" class="olink"> ১ ভেক্টর </a>
+</div>
+<div class="outline1">
+<a href="#section2" class="olink"> ২ স্ট্রিং </a>
+</div>
+<div class="outline1">
+<a href="#section3" class="olink"> ৩ স্ট্যাক </a>
+</div>
+<div class="outline1">
+<a href="#section4" class="olink"> ৪ কিউ</a>
+</div>
+<div class="outline1">
+<a href="#section5" class="olink">৫ প্রায়োরিটি কিউ</a>
+</div>
+<div class="outline1">
+<a href="#section6" class="olink">৬ ইটারেটর </a>
+</div>
+<div class="outline1">
+<a href="#section7" class="olink">৭ সর্ট</a>
+</div>
+<div class="outline1">
+<a href="#section8" class="olink">৮ সেট</a>
+</div>
+<div class="outline1">
+<a href="#section9" class="olink">৯ ম্যাপ</a>
+</div>
+<div class="outline1">
+<a href="#section10" class="olink">১০ স্ট্রিংস্ট্রিম</a>
+</div>
+<div class="outline1">
+<a href="#section11" class="olink">১১ পেয়ার</a>
+</div>
+<div class="outline1">
+<a href="#section12" class="olink">১২ নেক্সট পারমুটেশন, প্রিভ পারমুটেশন</a>
+</div>
+<div class="outline1">
+<a href="#section13" class="olink">১৩ রিভার্স</a>
+</div>
+</div>
+<p><a name="section1"></a></p>
+<p> সি++ এ একটা বিশাল লাইব্রেরী আছে, যার কোডগুলো যেকোন ধরণের ডাটার জন্য 
+কাজ করতে পারে। এই টেম্প্লেট লাইব্রেরীর সবচে' স্ট্যান্ডার্ড ভারশনটার নামই
+ স্ট্যান্ডার্ড টেম্প্লেট লাইব্রেরী, ওরফে STL। STL হল একটা বেশ বড়সড় একটা 
+লাইব্রেরী। মোটামুটি বেশিরভাগ ডাটা স্ট্রাকচার আর হাবিজাবি এটার মধ্যে লিখে
+ রাখা আছে, তোমাকে শুধু জানতে হবে সেটা তুমি কিভাবে ব্যবহার করবে।</p>
+<p><a name="section1"></a></p>
+<h3>১ ভেক্টর</h3>
+<p>মাঝে মাঝে এমন হয় - আমাদের একটা 2D অ্যারে দরকার, যেটায় মোটামুটি 
+প্রতিটায় সর্বোচ্চ ১০০০০ টা ডাটা রাখতে হবে, আর প্রতিটা ডাটায় সর্বোচ্চ 
+১০০০০টা করে ডাটা রাখা লাগবে। কিন্তু আমাকে এটাও বলা আছে যে সর্বোচ্চ 
+১০০০০০ টা ডাটা থাকতে পারে।</p>
+<p>খুব সাধারণভাবে যেটা মাথায় আসে, সেটা হচ্ছে এরকম কিছু একটা</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="n">array</span><span class="p">[</span><span class="mi">10000</span><span class="p">][</span><span class="mi">10000</span><span class="p">];</span></code></pre></div>
+<p>তাই না? এটা কিন্তু বেশ বড়সড় একটা অ্যারে। আমার কম্পিউটার মাথা ঘুরে পড়ে
+ যাবে তাকে এই পরিমান মেমরি অ্যালোকেট করতে বললে, কিন্তু আমার আসলে এত বেশি
+ জায়গা লাগছে না, কারণ আমাকে বলেই দেয়া হয়েয়ে ডাটা সবমিলে সর্বোচ্চ ১০০০০০ 
+টা থাকে পারে।</p>
+<p>এধরণের সময়, আমরা ডাইনামিক মেমরি অ্যালোকেট করি - ঠিক যতটুকু মেমরি 
+দরকার ঠিক ততটুকুই নেই। যেটা ম্যানুয়ালি করা বেশ ঝক্কি, আর সেটায় মেমরি 
+পরিষ্কারও করে দিতে হয় কাজ শেষে, নইলে সব ডাটা জমতে জমতে কম্পিউটারের গলা 
+চিপে ধরে।</p>
+<p>ভেক্টর হলো একটা অ্যারে, যেটায় ডাইনামিকালি জিনিসপাতি ঢুকিয়ে রাখা যায়। 
+মানে, এটাও একটা অ্যারে, কিন্তু সেটা ঠিক ততটুকু মেমরি খায়, যতটুকু খাওয়া 
+লাগে।</p>
+<p>ভেক্টর ডিক্লেয়ার করে এভাবে</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">array</span><span class="p">;</span></code></pre></div>
+<p>তুমি যদি অন্য কোন টাইপের ডাটা নিতে চাও তাইলে int এর জায়গায় সেই ডাটার নাম লিখতে হবে। যেমন এটা আরো কিছু অ্যারে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">double</span> <span class="o">&gt;</span> <span class="n">water</span><span class="p">;</span>
+<span class="n">vector</span><span class="o">&lt;</span> <span class="kt">long</span> <span class="kt">long</span> <span class="o">&gt;</span> <span class="n">balance</span><span class="p">;</span>
+<span class="n">vector</span><span class="o">&lt;</span> <span class="kt">char</span> <span class="o">&gt;</span> <span class="n">characters</span><span class="p">;</span>
+<span class="n">vector</span><span class="o">&lt;</span> <span class="n">day</span> <span class="o">&gt;</span> <span class="n">diary</span><span class="p">;</span></code></pre></div>
+<p>ভেক্টরে কোন ডাটা রাখতে হলে, সেই ভেক্টরের শেষে ডাটাটাকে পুশ করতে হয়।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">array</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">100</span> <span class="p">);</span></code></pre></div>
+<p> আর ভেক্টরে কটা ডাটা আছে সেটা আমরা জানতে পারি .size() ফাংশনকে কল করে।
+ যেমন ধরো, আমি একটা ভেক্টরে কিছু ইন্টেজার ঢুকাবো, তারপর সবাইকে প্রিন্ট 
+করবো, সেটার কোড হবে এরকম।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">;</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">1</span> <span class="p">);</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">2</span> <span class="p">);</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">3</span> <span class="p">);</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">4</span> <span class="p">);</span>
+
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">v</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+   
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span> 
+<span class="p">}</span></code></pre></div>
+<p>বাকি সব কিছুতে ভেক্টরকে সাধারণ অ্যারের মত ব্যবহার করা যায়। যেমন আমি 
+0th এলিমেন্টটা পাল্টে দিতে পারি v[0] = 10000 লিখে। আরেকটা মজা হচ্ছে আমরা
+ অ্যারেতে ধাম করে সরাসরি কপি করতে পারি না । কিন্তু ভেক্টরে সেটা করা যায়।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">,</span> <span class="n">t</span><span class="p">;</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">1</span> <span class="p">);</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">2</span> <span class="p">);</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">3</span> <span class="p">);</span>
+    <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="mi">4</span> <span class="p">);</span>
+
+    <span class="n">t</span> <span class="o">=</span> <span class="n">v</span><span class="p">;</span> <span class="c1">// copying</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">t</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+       
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>  
+<span class="p">}</span></code></pre></div>
+<p>ভেক্টরে যদি আমি 2D ডাটা রাখতে চাই তাহলে সেটা দুভাবে করা যায়। আমি 
+প্রথমটা প্রেফার করি, পরেরটা দেখতে আমার ভয় ভয় লাগে। কিন্তু মাঝে মাঝে কোন 
+পথ থাকে না সেটা লেখা ছাড়া।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span>
+
+<span class="n">vector</span><span class="o">&lt;</span> <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">;</span>
+
+<span class="n">vector</span><span class="o">&lt;</span> <span class="n">vector</span><span class="o">&lt;</span> <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="o">&gt;</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">;</span> <span class="c1">// 3 dimensional</span></code></pre></div>
+<p>একটা জিনিসে একটা সাবধান থেকো, vector&lt;vector<int>&gt; v; এভাবে লিখলে &gt;&gt; এর জন্য কিছু কম্পাইলর কিন্তু এরর মারে।</int></p>
+<p><a name="section2"></a></p>
+<h3>২ স্ট্রিং</h3>
+<p>স্ট্রিং হচ্ছে মজার একটা ডাটা স্ট্রাকচার। মোটামুটি এর কাজ অনেকটা 
+ক্যারেক্টার অ্যারের মতই। কিন্তু এটা ব্যবহার করা বেশ সহজ। যেমন নিচে কিছু 
+স্ট্রিং টাইপের জিনিসপাতির কাজ দেখিয়ে দিলাম।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">string</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">;</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="s">"this is a string"</span><span class="p">;</span> <span class="c1">// easy assigning</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="p">;</span> <span class="c1">// copy hoye gelo! :O</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="c1">// c te rakhlam a ar b er concatation</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">c</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="c1">// print korlam</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">c</span><span class="p">.</span><span class="n">c_str</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// printf diyei korlam na hoy</span>
+   
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">c</span><span class="p">.</span><span class="n">size</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="c1">// length print korlam</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">c</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">;</span> 
+
+<span class="c1">// ekta ekta kore character print korlam</span>
+   
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+<p>তুমি যদি এখন স্ট্রিং এর ভেক্টর রাখতে চাও তাহলে সেটাকে ডিক্লেয়ার করতে হবে এভাবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="n">string</span> <span class="o">&gt;</span> <span class="n">vs</span><span class="p">;</span></code></pre></div>
+<p>সহজ না?</p>
+<p><a name="section3"></a></p>
+<h3>৩ স্ট্যাক</h3>
+<p>ধরো, তোমার মা একগাদা প্লেট ধুতে নিয়ে যাচ্ছে খাওয়ার টেবিল থেকে। সবার 
+পরে যেটা রাখা হবে, সেই প্লেটটাকে কিন্তু সবার উপরে রাখা হবে, আর সেটাই 
+কিন্তু সবার আগে ধোয়া হবে।</p>
+<p>এই জিনিসটাকে বলে স্ট্যাক। মানে আমরা সবার পরে যাকে প্রসেসিং করতে 
+ঢুকাচ্ছি তাকে যদি আগে প্রসেসিং করি তাহলে সেটাই স্ট্যাক। STL এ স্ট্যাক 
+ব্যবহার করতে হয় এভাবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">stack</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">st</span><span class="p">;</span>
+    <span class="n">st</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">100</span> <span class="p">);</span> <span class="c1">// inserting 100</span>
+    <span class="n">st</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">101</span> <span class="p">);</span> <span class="c1">// inserting 101</span>
+    <span class="n">st</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">102</span> <span class="p">);</span> <span class="c1">// inserting 102</span>
+    
+    <span class="k">while</span><span class="p">(</span> <span class="o">!</span><span class="n">st</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">st</span><span class="p">.</span><span class="n">top</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="c1">// printing the top</span>
+        <span class="n">st</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span> <span class="c1">// removing that one</span>
+    <span class="p">}</span></code></pre></div>
+<p><a name="section4"></a></p>
+<h3>৪ কিউ</h3>
+<p>ধরো তুমি বাসের টিকেট কিনে লাইনে দাঁড়িয়ে আছো। এখন বাসে ওঠাটা হচ্ছে 
+আমার কাজ(প্রসেসিং)। কাকে আগে বাসে উঠতে দিবে? যে সবার আগে এসেছে, তাকে। 
+এটাকে বলে কিউ - যে সবার আগে এসেছে তাকে আগে প্রসেস করা।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">queue</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">q</span><span class="p">;</span>
+    <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">100</span> <span class="p">);</span> <span class="c1">// inserting 100</span>
+    <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">101</span> <span class="p">);</span> <span class="c1">// inserting 101</span>
+    <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">102</span> <span class="p">);</span> <span class="c1">// inserting 102</span>
+   
+    <span class="k">while</span><span class="p">(</span> <span class="o">!</span><span class="n">q</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">q</span><span class="p">.</span><span class="n">front</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="c1">// printing the front</span>
+        <span class="n">q</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span> <span class="c1">// removing that one</span>
+    <span class="p">}</span></code></pre></div>
+<p><a name="section5"></a></p>
+<h3>৫ প্রায়োরিটি কিউ</h3>
+<p>আমাদের পাড়ার মুচির প্রতিদিন একগাদা কাজ আসে। সে করে কি, সবচে' বেশি 
+পয়সা পাওয়া যাবে যেই কাজে সেই কাজগুলো সবার আগে করে ফেলে। সে প্রায়োরিটি 
+তাদেরকেই বেশি দেয় যাদের কাজে বেশি পয়সা পাওয়া যাবে।</p>
+<p>এটাও এক ধরণের কিউ শুধু পার্থক্য হচ্ছে যার দাম যত বেশি তাকে তত আগে প্রসেস করা হচ্ছে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">priority_queue</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">q</span><span class="p">;</span>
+    <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">10230</span> <span class="p">);</span> <span class="c1">// inserting 10230</span>
+    <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">1021</span> <span class="p">);</span> <span class="c1">// inserting 1021</span>
+    <span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">(</span> <span class="mi">102322</span> <span class="p">);</span> <span class="c1">// inserting 102322</span>
+   
+    <span class="k">while</span><span class="p">(</span> <span class="o">!</span><span class="n">q</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">q</span><span class="p">.</span><span class="n">top</span><span class="p">()</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="c1">// printing the top</span>
+        <span class="n">q</span><span class="p">.</span><span class="n">pop</span><span class="p">();</span> <span class="c1">// removing that one</span>
+    <span class="p">}</span></code></pre></div>
+<p><a name="section6"></a></p>
+<h3>৬ ইটারেটর</h3>
+<p>ইটারেটার হলো অনেকটা সি এর পয়েন্টারের মত একটা জিনিস। ইটারেটর আসলে পরে 
+কাজে লাগবে, কারণ অনেক জায়গায়ই STL এর ফাংশনগুলো একটা অ্যাডরেস পাঠায়, যে 
+আমি যেই ডাটাটাকে খুঁজছি, সেটা ঠিক কোথায় আছে।</p>
+<p>ইটারেটর ডিক্লেয়ার করে এইভাবে</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="o">::</span> <span class="n">iterator</span> <span class="n">i</span><span class="p">;</span>
+    <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">double</span> <span class="o">&gt;</span> <span class="o">::</span> <span class="n">iterator</span> <span class="n">j</span><span class="p">;</span></code></pre></div>
+<p>আর ফর লুপ দিয়ে একটা ভেক্টরের প্রথম থেকে শেষ পর্যন্ত সব এলিমেন্টের গলা কাটতে চাই তাহলে সেটা লিখতে হবে এভাবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">;</span> <span class="n">v</span><span class="p">.</span><span class="n">pb</span><span class="p">(</span> <span class="mi">1</span> <span class="p">);</span> <span class="n">v</span><span class="p">.</span><span class="n">pb</span><span class="p">(</span> <span class="mi">2</span> <span class="p">);</span> <span class="n">v</span><span class="p">.</span><span class="n">pb</span><span class="p">(</span> <span class="mi">3</span> <span class="p">);</span>
+    <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="o">::</span> <span class="n">iterator</span> <span class="n">i</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span> <span class="n">i</span> <span class="o">=</span> <span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="o">*</span><span class="n">i</span><span class="p">);</span>
+        <span class="c1">// ei khane gola kato!</span>
+    <span class="p">}</span></code></pre></div>
+<p><a name="section7"></a></p>
+<h3>৭ সর্ট</h3>
+<p>ধরো আমার কাছে কিছু নাম্বার আছে, আমি সেগুলোকে ছোট থেকে বড়তে সাজাবো, বা
+ উল্টো কাজটা করবো, বড় থেকে ছোটতে সাজাবো। এই কাজটাকে বলে সর্ট করা। যদি 
+তুমি সর্ট করার নিয়ে পড়াশুনা করে ফাটাই ফেলতে চাও তাইলে এইখানে একটু ঢু 
+মারো।</p>
+<p>STL এ সর্ট করা খুব সহজ। ধরো আমার একটা ভেক্টর v আছে, সেটা আমি সর্ট করবো। তাহলো আমার শুধু লিখতে হবে -</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">sort</span><span class="p">(</span> <span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">()</span> <span class="p">);</span></code></pre></div>
+<p>তাহলে সে ছোট থেকে বড় তে ভেক্টরটাকে সর্ট করে ফেলবে। এখন ধরো আমাকে যদি 
+আরেকটু ঝামেলার কিছু করতে বলে। যেমন ধরো চাচা চৌধুরী তার মেয়ের বিয়ে দিবে, 
+তো সে গেলো ঘটক পাখি ভাইয়ের কাছে। ঘটক পাখি ভাইয়ের কাছে একটা ছেলে মানে, 
+তার নাম-ধাম, তার বংশ, সে কত টাকা কামায়, তার উচ্চতা কতো, আর তার ওজন কত। 
+ছেলেটা সি++ এ কোড করে না জাভাতে কোড করে, সেটা নিয়ে ঘটক পাখি ভাইয়ের কোনই 
+মাথা ব্যাথা নাই। তো সে করলো কি চাচা চৌধুরীকে শুধু এই ক্য়টা ডাটাই সাপ্লাই
+ দিলো কয়েকটা বস্তা ভরে। এখন চাচা চৌধুরী পাড়ার প্যান্ট ঢিলা মাস্তানের কাছ
+ থেকে শুনলো তুমি একটা বস প্রোগ্রামার, তো সে এসে তোমাকে বলল, "বাবাজি! 
+আমাকে একটা সফটওয়্যার বানিয়ে দাও, যেটা আমার ডাটাগুলোকে সাজাবে"।</p>
+<p>বেশ তো, এখন আমার ডাটাটা হচ্ছে এরকম - (চাচা চৌধুরী আবার বংশ নিয়ে মাথা ঘামায় না)</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="k">struct</span> <span class="n">data</span> <span class="p">{</span>
+    <span class="kt">char</span> <span class="n">name</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span>
+    <span class="kt">int</span> <span class="n">height</span><span class="p">,</span> <span class="n">weight</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="n">income</span><span class="p">;</span>
+<span class="p">};</span></code></pre></div>
+<p>চাচা চৌধুরী যেটা নিয়ে মাথা ঘামায় সেটা হলো পোলার কত টাকা কামাই। যদি 
+দুইটা পোলার সমান কামাই হয়, তাইলে যেই পোলার হাইট ভালো, সেই পোলা লিস্টে 
+আগে থাকবে। আর যদি দুই পোলার হাইট সমান হয় তাইলে যেই পোলার ওজন কম, সেই 
+পোলা আগে থাকবে। আর যদি দুই পোলার ওজন সমান হয়, তাইলে যেই পোলার নাম ছোট 
+সেই পোলা আগে থাকবে।</p>
+<p>এখন তোমাকে এই অনুযায়ী সর্ট করে দিতে হবে। আর তুমি যদি বেশি হাংকি পাংকি করো, তাইলে প্যান্ট ঢিলা মাস্তান এসে তোমাকে সাইজ করে দিবে।</p>
+<p>এই কাজটা দুই ভাবে করা যায়। সবচে সহজটা হলো একটা কম্পেয়ার ফাংশন লিখে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">bool</span> <span class="nf">compare</span><span class="p">(</span> <span class="n">data</span> <span class="n">a</span><span class="p">,</span> <span class="n">data</span> <span class="n">b</span> <span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span> <span class="n">a</span><span class="p">.</span><span class="n">income</span> <span class="o">==</span> <span class="n">b</span><span class="p">.</span><span class="n">income</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span> <span class="n">a</span><span class="p">.</span><span class="n">height</span> <span class="o">==</span> <span class="n">b</span><span class="p">.</span><span class="n">height</span> <span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span> <span class="n">a</span><span class="p">.</span><span class="n">weight</span> <span class="o">==</span> <span class="n">b</span><span class="p">.</span><span class="n">weight</span> <span class="p">)</span> 
+
+              <span class="k">return</span> <span class="n">strlen</span><span class="p">(</span> <span class="n">a</span><span class="p">.</span><span class="n">name</span> <span class="p">)</span> <span class="o">&lt;</span> <span class="n">strlen</span><span class="p">(</span> <span class="n">b</span><span class="p">.</span><span class="n">name</span> <span class="p">);</span>
+            <span class="k">else</span> <span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">weight</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">.</span><span class="n">weight</span><span class="p">;</span>
+        <span class="p">}</span><span class="k">else</span> <span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">height</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">.</span><span class="n">height</span><span class="p">;</span>
+    <span class="p">}</span><span class="k">else</span> <span class="k">return</span> <span class="n">a</span><span class="p">.</span><span class="n">income</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">.</span><span class="n">income</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+<p>এই ফাংশনটা গ্লোবালি ডিক্লেয়ার করে যেখানে তুমি সর্ট করতে চাও সেখানে লিখতে হবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">sort</span><span class="p">(</span> <span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span> <span class="n">compare</span> <span class="p">);</span></code></pre></div>
+<p>কম্পেয়ার ফাংশনটা রিটার্ন করবে a কি b এর আগে বসবে কি না। আর কিছু না।</p>
+<p>সর্ট করার অন্য পথটা হচ্ছে অপারেটর ওভারলোড করে। ধরো, আমরা যখন বলি ২ 
+&lt; ৩ আমরা বুঝে নেই যে ২ হচ্ছে ৩ এর ছোট - মানের দিক দিয়ে। এখন একটা 
+স্ট্রাকচার কখন অন্য আরেকটা স্ট্রাকচারের চেয়ে ছোট হবে? এই জিনিসটা তোমার 
+প্রোগ্রামে ডিফাইন করে দিতে হবে। এখানে খেয়াল করো, ছোট হবার মানে বোঝাচ্ছে 
+সে লিস্টে আগে থাকবে।</p>
+<p>আমি যদি একই কাজটা অপারেটর ওভারলোড দিয়ে করতে চাই, সেটা এরকম হবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="k">struct</span> <span class="n">data</span> <span class="p">{</span>
+    <span class="kt">char</span> <span class="n">name</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span>
+    <span class="kt">int</span> <span class="n">height</span><span class="p">,</span> <span class="n">weight</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="kt">long</span> <span class="n">income</span><span class="p">;</span>
+   
+    <span class="kt">bool</span> <span class="k">operator</span> <span class="o">&lt;</span> <span class="p">(</span> <span class="k">const</span> <span class="n">data</span><span class="o">&amp;</span> <span class="n">b</span> <span class="p">)</span> <span class="k">const</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span> <span class="n">income</span> <span class="o">==</span> <span class="n">b</span><span class="p">.</span><span class="n">income</span> <span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span> <span class="n">height</span> <span class="o">==</span> <span class="n">b</span><span class="p">.</span><span class="n">height</span> <span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span><span class="p">(</span> <span class="n">weight</span> <span class="o">==</span> <span class="n">b</span><span class="p">.</span><span class="n">weight</span> <span class="p">)</span> 
+                   <span class="k">return</span> <span class="n">strlen</span><span class="p">(</span> <span class="n">name</span> <span class="p">)</span> <span class="o">&lt;</span> <span class="n">strlen</span><span class="p">(</span> <span class="n">b</span><span class="p">.</span><span class="n">name</span> <span class="p">);</span>
+                <span class="k">else</span> <span class="k">return</span> <span class="n">weight</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">.</span><span class="n">weight</span><span class="p">;</span>
+            <span class="p">}</span><span class="k">else</span> <span class="k">return</span> <span class="n">height</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">.</span><span class="n">height</span><span class="p">;</span>
+        <span class="p">}</span><span class="k">else</span> <span class="k">return</span> <span class="n">income</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">.</span><span class="n">income</span><span class="p">;</span>
+    <span class="p">}</span>
+
+<span class="p">};</span></code></pre></div>
+<p>এখানে কিন্তু আমি এই ডাটাটাকেই অন্য আরেকটা ডাটা b এর সাথে তুলনা করছি, সেজন্য আমার আগেরটার মতো a কে লাগছে না।</p>
+<p>আর আমার সর্ট এর কমান্ড লিখতে হচ্ছে এইভাবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">sort</span><span class="p">(</span> <span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">()</span> <span class="p">);</span></code></pre></div>
+<p>তোমার যদি ভেক্টর ব্যবহার করতে আপত্তি থাকে, ধরো ভেক্টর দেখলেই হাঁচি 
+আসা শুরু করে, নাক চুলকায় কিংবা এধরণের কিছু, তুমি সাধারণ অ্যারেই ব্যবহার 
+করতে পারো।</p>
+<p>ধরো সেক্ষেত্রে অ্যারেটা হবে এরকম -</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">data</span> <span class="n">array</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span>
+
+<span class="n">sort</span><span class="p">(</span> <span class="n">array</span><span class="p">,</span> <span class="n">array</span> <span class="o">+</span> <span class="n">n</span> <span class="p">);</span></code></pre></div>
+<p>যেখানে n হচ্ছে অ্যারেতে কতগুলো ডাটাকে তুমি সর্ট করতে চাও।</p>
+<p>তুমি যদি 3 নাম্বার (0 based)থেকে 10 নাম্বার পর্যন্ত সর্ট করতে চাও লিখো</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">sort</span><span class="p">(</span> <span class="n">array</span><span class="o">+</span><span class="mi">3</span><span class="p">,</span> <span class="n">array</span><span class="o">+</span><span class="mi">11</span> <span class="p">);</span></code></pre></div>
+<p><a name="section8"></a></p>
+<h3>৮ সেট</h3>
+<p>কোন কিছুর সেট বলতে আসলে বুঝায় শুধু জিনিসগুলোর নাম একবার করে থাকাকে।</p>
+<p>যেমন A = { রহিম, করিম, গরু, বিড়াল, করিম, বালিশ, রহিম, করিম } একটা সেট না, কিন্তু</p>
+<p> A = { রহিম, করিম, গরু, বিড়াল, বালিশ } একটা সেট।</p>
+<p>STL এর সেট করে কি, সেট এ সব ডাটা গুলো একবার করে রাখে, আর ডাটাগুলোকে সর্ট ও করে রাখে। এটা হলো সেট এর কাজ কারবার -</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">set</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">s</span><span class="p">;</span>
+    <span class="n">s</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span> <span class="mi">10</span> <span class="p">);</span> <span class="n">s</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span> <span class="mi">5</span> <span class="p">);</span> <span class="n">s</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span> <span class="mi">9</span> <span class="p">);</span>
+   
+    <span class="n">set</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="o">::</span> <span class="n">iterator</span> <span class="n">it</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="n">it</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">it</span> <span class="o">!=</span> <span class="n">s</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="n">it</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">it</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span></code></pre></div>
+<p>যদি তুমি স্ট্রাকচার টাইপের ডাটা রাখতে চাও সেট এ, শুধু &lt; অপারেটরটা 
+ওভারলোড করে ওকে বলে নিও, যে তুমি ছোট বলতে কি বুঝাচ্ছো। বাকি কাজ ওই করবে।</p>
+<p>সেট সাধারণত এধরণের প্রবলেমগুলোতে কাজে লাগে। আমাকে অনেকগুলো সংখ্যা 
+দিয়ে বলল, এখানে ইউনিক কয়টা সংখ্যা আছে। সেক্ষেত্রে আমি খালি একটার পর একটা
+ সংখ্যা ইনপুট নিতে থাকবো তো নিতেই থাকবো, আর সেটে ঢুকাবো তো ঢুকাতেই 
+থাকবো, তারপর খালি সেটের সাইজ প্রিন্ট করে দিবো। কেল্লা ফতেহ!</p>
+<p><a name="section9"></a></p>
+<h3>৯ ম্যাপ</h3>
+<p>ম্যাপও সেটের মতো একটা জিনিস। কিন্তু ম্যাপ সেটের মত কোন জিনিস একটা রেখে ওই ধরণের বাকি সবাইকে বাইরে ফেলে দেয় না।</p>
+<p>তবে এভাবে ভাবার চেয়ে ম্যাপকে আরেকটু সহজভাবে ভাবা যায়। একটা অ্যারের 
+কথা চিন্তা করো, আমরা করি কি অ্যারের একটা ইনডেক্সে ডাটা জমাই না? কেমন 
+হতো, যদি ইনডেক্সটা শুধু সংখ্যা না হয়ে যেকোন কিছু হতে পারতো? ধরো, ১ নম্বর
+ ইনডেক্সে না রেখে, "বাংলাদেশ" নামের ইনডেক্সে ডাটা যদি রাখতে পারতাম? তখন 
+ব্যাপারটা দাঁড়াতো আমাদের একটা ম্যাজিক অ্যারে আছে যেটাই আমরা যেকোন ধরণের 
+ডাটা জমিয়ে রাখতে পারি আমাদের ইচ্ছা মতো যে কোন ধরণের ইনডেক্স দিয়ে।</p>
+<p>সহজভাবে ম্যাপকে তুমি এভাবে চিন্তা করতে পারো, ম্যাপ হচ্ছে একটা অ্যারে,
+ যেটার ইনডেক্স যেকোন কিছুই হতে পারে, আর সেটাতে যেটা ইচ্ছে সেটাই রাখা 
+যেতে পারে!</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">map</span><span class="o">&lt;</span> <span class="n">string</span><span class="p">,</span> <span class="kt">int</span>  <span class="o">&gt;</span> <span class="n">m</span><span class="p">;</span>
+    <span class="n">string</span> <span class="n">goru</span><span class="p">;</span>
+   
+    <span class="k">while</span><span class="p">(</span> <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">goru</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span> <span class="n">goru</span> <span class="o">==</span> <span class="s">"moro"</span> <span class="p">)</span> <span class="k">break</span><span class="p">;</span>
+        <span class="n">m</span><span class="p">[</span> <span class="n">goru</span> <span class="p">]</span> <span class="o">++</span><span class="p">;</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">goru</span> <span class="o">&lt;&lt;</span><span class="s">" ase "</span> <span class="o">&lt;&lt;</span> <span class="n">m</span><span class="p">[</span> <span class="n">goru</span> <span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" ta :D "</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>       
+    <span class="p">}</span></code></pre></div>
+<p>এই প্রোগ্রামটা করবে কি, গরুর নাম ইনপুট নিতে থাকবে, আর প্রতিবার বলবে 
+যে ওই জাতের কয়টা গরু আছে। ম্যাপকে অ্যারের মত ধরেই ইনক্রিমেন্ট করা যায়।</p>
+<p>অবশ্য তুমি যদি তোমার বানানো কোন স্ট্রাকচার/ক্লাস রাখতে চাও ইনডেক্স 
+হিসেবে, তোমাকে সেটার জন্য &lt; অপারেটরটা ওভারলোড করে দিতে হবে।</p>
+<p><a name="section10"></a></p>
+<h3>১০ স্ট্রিংস্ট্রিম</h3>
+<p>যদি কখনো স্ট্রিং থেকে অজানা সংখ্যক ইনপুট নিতে হয় আমরা স্ট্রিংস্ট্রিম 
+ব্যবহার করতে পারি সেজন্য। আমরা লাইনের ইনপুট নেই হচ্ছে গেটস দিয়ে।</p>
+<p>তো ব্যাপারটা এরকম হবে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="kt">char</span> <span class="n">line</span><span class="p">[</span><span class="mi">1000</span><span class="p">];</span>
+    <span class="k">while</span><span class="p">(</span> <span class="n">gets</span><span class="p">(</span> <span class="n">line</span> <span class="p">)</span> <span class="p">)</span> <span class="p">{</span>
+        <span class="n">stringstream</span> <span class="n">ss</span><span class="p">(</span> <span class="n">line</span> <span class="p">);</span> <span class="c1">// initialize kortesi</span>
+        <span class="kt">int</span> <span class="n">num</span><span class="p">;</span> <span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">;</span>
+        <span class="k">while</span><span class="p">(</span> <span class="n">ss</span> <span class="o">&gt;&gt;</span> <span class="n">num</span> <span class="p">)</span> <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="n">num</span> <span class="p">);</span> 
+        <span class="n">sort</span><span class="p">(</span> <span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">()</span> <span class="p">);</span>
+        <span class="c1">// print routine</span>
+    <span class="p">}</span></code></pre></div>
+<p>ss এর পরের হোয়াইল লুপ অংশটা তুমি cin এর মতো করেই ভাবতে পারো! ;) আমি সেভাবেই চিন্তা করি।</p>
+<p><a name="section11"></a></p>
+<h3>১১ পেয়ার</h3>
+<p>STL এর একটা স্ট্রাকচার বানানো আছে, যার অবস্থা মোটামুটি এইরকম।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="k">struct</span> <span class="n">pair</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">first</span><span class="p">,</span> <span class="n">second</span><span class="p">;</span>
+<span class="p">};</span></code></pre></div>
+<p>তবে জিনিসটা এমন না, তুমি যেকোন টাইপে কাজ করতে পারো। যেমন এটা যদি আমি STL এর পেয়ার দিয়ে লিখি, জিনিসটা হবে এরকম</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">pair</span><span class="o">&lt;</span> <span class="kt">int</span><span class="p">,</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">p</span><span class="p">;</span></code></pre></div>
+<p>এই চেহারাটা কি মনে পড়ে? একে কি আগে দেখেছো? হুমম, ম্যাপের স্ট্রাকচারে আরেকবার চোখ বুলাও। ;)</p>
+<p>আমরা ইচ্ছে মতো পেয়ার ডিফাইন করতে পারি, যেভাবে ইচ্ছে। ম্যাপের ডাটা টাইপের মতনই!</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">pair</span><span class="o">&lt;</span> <span class="kt">int</span><span class="p">,</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">p</span><span class="p">;</span>
+<span class="n">pair</span><span class="o">&lt;</span> <span class="kt">int</span><span class="p">,</span> <span class="kt">double</span> <span class="o">&gt;</span> <span class="n">x</span><span class="p">;</span>
+<span class="n">pair</span><span class="o">&lt;</span> <span class="kt">double</span><span class="p">,</span> <span class="n">string</span> <span class="o">&gt;</span> <span class="n">moru</span><span class="p">;</span>
+<span class="n">pair</span><span class="o">&lt;</span> <span class="n">goru</span><span class="p">,</span> <span class="n">goru</span> <span class="o">&gt;</span> <span class="n">fau</span><span class="p">;</span></code></pre></div>
+<p>যা ইচ্ছে!</p>
+<p><a name="section12"></a></p>
+<h3>১২ নেক্সট পারমুটেশন, প্রিভ পারমুটেশন</h3>
+<p> ধরো হঠাৎ একদিন ঘুম থেকে উঠে দেখলা যে তোমার এগারোটা বাচ্চা এবং কালকে 
+ঈদ আর আজকে তোমার ওদের জন্য ঈদের জামা কিনতে হবে। সমস্যা হচ্ছে, তোমার বউ 
+এরই মধ্যে এগারোটা জামা কিনে ফেলেছে আর আরো সমস্যা হচ্ছে সেটা সে লটারি করে
+ দিয়ে দিয়েছে এবং সেজন্য যাদের যাদের জামা পছন্দ হয়নি তারা কান্নাকাটি 
+করছে। তো তোমার খুব মন খারাপ, তুমি চাও ঈদের দিনের সুখ যাতে সবচে' বেশি হয়।
+ আর তুমি এটাও জানো কোন জামা পড়লে কোন বাচ্চা কতটুকু সুখি হবে। এখন আমাদের 
+সবার সুখের যোগফল ম্যাক্সিমাইজ করতে হবে।</p>
+<p>এধরণের প্রবলেমকে বলা হয় কম্প্লিট সার্চ। আমাদের সবগুলো অপশন ট্রাই করতে
+ হবে। ধরো তিনটা বাচ্চার জন্য অল পসিবল ট্রাই করা হচ্ছে এরকম - (জামার 
+নাম্বার দিয়ে)</p>
+<p>আবু গাবু ডাবু</p>
+<p> ১ ২ ৩</p>
+<p> ১ ৩ ২</p>
+<p> ২ ১ ৩</p>
+<p> ২ ৩ ১</p>
+<p> ৩ ১ ২</p>
+<p> ৩ ২ ১</p>
+<p>এখন এভাবে যদি আমি এগারোটা বাচ্চার জন্য ঈদের জামা পড়িয়ে দেখতে চাই আমার
+ খবরই আছে - 11! ভাবে ট্রাই করতে হবে। তো সেই জন্যই আছে STL এর নেক্সট 
+পারমুটেশন</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">v</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">11</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span> <span class="n">i</span> <span class="p">);</span>
+   
+    <span class="k">do</span> <span class="p">{</span>
+        <span class="c1">// protitat jama prottekke porai dekho shukh maximize hochche kina</span>
+    <span class="p">}</span><span class="k">while</span><span class="p">(</span> <span class="n">next_permutation</span><span class="p">(</span> <span class="n">v</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">v</span><span class="p">.</span><span class="n">end</span><span class="p">()</span> <span class="p">)</span> <span class="p">);</span></code></pre></div>
+<p>আমরা ৩ এর জন্য যেভাবে সবগুলো পারমুটেশন জেনারেট করেছি, সেটাই এই নেক্সট
+ পারমুটেশন করবে। খেয়াল কোর যে, নেক্সট পারমুটেশন কিন্তু ঠিক 
+অ্যালফাবেটিকালি পরের পারমুটেশনটাকে নেয়। তুমি যদি সব পারমুটেশন চাও, 
+প্রথমে অবশ্যই অ্যারেটাকে সর্টেড রেখো।</p>
+<p><a name="section13"></a></p>
+<h3>১৩ রিভার্স</h3>
+<p>রিভার্স হচ্ছে একটা কিছুকে ধরে উল্টায় দেয়া।</p>
+<p>ধরো আমার একটা ভেক্টর আছে।</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="n">vector</span><span class="o">&lt;</span> <span class="kt">int</span> <span class="o">&gt;</span> <span class="n">nacho</span><span class="p">;</span>
+
+<span class="n">reverse</span><span class="p">(</span> <span class="n">nacho</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span> <span class="n">nacho</span><span class="p">.</span><span class="n">end</span><span class="p">()</span> <span class="p">);</span></code></pre></div>
+<p>পরের স্টেটমেন্টটা লিখলে, সে নাচোকে উল্টায় দিবে।</p>
+</div>
+<div class="fb-like pull-left fb_iframe_widget" data-href="http://progkriya.org/gyan/stl.html" data-width="100" data-layout="button_count" data-show-faces="true" data-send="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=http%3A%2F%2Fprogkriya.org%2Fgyan%2Fstl.html&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=true&amp;width=100"><span style="vertical-align: bottom; width: 74px; height: 20px;"><iframe name="fb07f8986a774e" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" style="border: medium none; visibility: visible; width: 74px; height: 20px;" src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/like.html" class="" width="100px" height="1000px" frameborder="0"></iframe></span></div>
+<ul class="inline tags">
+<li><i class="icon-tags"></i></li>
+<li><a href="http://www.progkriya.org/tag/algorithm">algorithm</a></li>
+<li><a href="http://www.progkriya.org/tag/data-structure">data-structure</a></li>
+<li><a href="http://www.progkriya.org/tag/stl">stl</a></li>
+</ul>
+<br>
+<div class="media">
+<a class="pull-left" href="#">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/iqram.jpg" class="img-polaroid">
+</a>
+<div class="media-body author-description">
+<h4 class="media-heading">ইকরাম মাহমুদ</h4>
+ইকরাম মাহমুদ ২০০৯ এবং ২০১২ এর ACM ICPC ওয়ার্ল্ড ফাইনালিস্ট। আন্তর্জাতিক 
+ইনফরমেটিক্স অলিম্পিয়াডে বাংলাদেশের প্রতিনিধিত্ব করেছেন ২০০৬ এবং ২০০৭ এ।
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="span4">
+</div>
+<div class="span7 footer">
+<div class="pull-left inline">
+<a href="http://facebook.com/progkriya" class="hidden">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/progkriya50i.png" class="tinyicon">
+</a>
+<a href="http://facebook.com/progkriya">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/facebook.png" class="tinyicon">
+</a>
+<a href="http://twitter.com/progkriya/">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/twitter.png" class="tinyicon">
+</a>
+<a href="mailto:mailbox@progkriya.org">
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/email.png" class="semitinyicon">
+</a>
+</div>
+<div>
+<img src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/copyright3.png" class="tootinyicon">
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%20%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%9F%20%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0%E0%A7%80_files/email-decode.js"></script>
+
+</body></html>

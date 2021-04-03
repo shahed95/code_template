@@ -1,0 +1,53 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+vector<int> tree[30010*4];
+int a[30010];
+int K;
+int ans;
+
+
+void build_tree(int L,int R,int index)
+{
+    if(L==R){
+        tree[index].push_back(a[L]);
+        return;
+    }
+
+    int mid = (L+R)/2;
+
+    build_tree(L,mid,2*index); // left child
+    build_tree(mid+1,R,2*index+1);
+
+    merge(tree[2*index].begin(),tree[2*index].end(),tree[2*index+1].begin(),tree[2*index+1].end(),back_inserter(tree[index]));
+}
+
+
+int left(int qL,int qR,int rL,int rR,int index,int k)
+{
+    if(qR<rL || rR< qL)
+        return 0;
+
+    if(qL<=rL && rR<=qR){
+      return lower_bound(tree[index].begin(),tree[index].end(),k) - tree[index].begin();
+    }
+
+    int mid  = (rL+rR)/2;
+
+    return left(qL,qR,rL,mid,2*index,k)+left(qL,qR,mid+1,rR,2*index+1,k);
+}
+
+int right(int qL,int qR,int rL,int rR,int index,int k)
+{
+    if(qR<rL || rR< qL)
+        return 0;
+
+    if(qL<=rL && rR<=qR){
+      return tree[index].end()-upper_bound(tree[index].begin(),tree[index].end(),k);
+    }
+
+    int mid  = (rL+rR)/2;
+
+    return right(qL,qR,rL,mid,2*index,k)+right(qL,qR,mid+1,rR,2*index+1,k);
+}

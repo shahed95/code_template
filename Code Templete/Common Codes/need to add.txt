@@ -1,0 +1,3 @@
+trie with array/linked list
+suffix array
+flow+matching algorithms

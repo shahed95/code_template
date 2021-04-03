@@ -1,0 +1,2 @@
+const LL MOD = 1e9 + 7;
+template <typename T> inline T BigMod(T A,T B,T M = MOD){T ret = 1;while(B){if(B & 1) ret = (ret * A) % M;A = (A * A) % M;B = B >> 1;}return ret;}

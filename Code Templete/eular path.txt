@@ -1,0 +1,11 @@
+Condition for directed graph
+A directed graph has an eulerian cycle if following conditions are true. (Source: Wiki)
+
+*All vertices with nonzero degree belong to a single strongly connected component.
+*In degree and out degree of every vertex is same.
+
+
+A directed graph has an eulerian Path if following conditions are true. (Source: Wiki)
+
+*All vertices with nonzero degree belong to a single strongly connected component.
+*A directed graph has an Eulerian path if and only if at most one vertex has (out-degree) - (in-degree) = 1, at most one vertex has (in-degree) - (out-degree) = 1, every other vertex has equal in-degree and out-degree.

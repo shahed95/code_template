@@ -1,0 +1,15 @@
+int Set(int num, int pos) {
+	return num | (1 << pos);
+}
+
+int Clear(int num, int pos) {
+	return num & ~(1 << pos);
+}
+
+int Toggle(int num, int pos) {
+	return num ^ (1 << pos);
+}
+
+bool Check(int num, int pos) {
+	return (bool)(num & (1 << pos));
+}

@@ -1,0 +1,27 @@
+
+/*
+* Description: Finds the lexicographically smallest rotation of a string.
+* Time: O(N)
+* rotate(v.begin(), v.begin()+min_rotation(v), v.end());
+*/
+int min_rotation(string s) {
+	int a=0, N=sz(s); s += s;
+	REP(b,N) REP(i,N) {
+		if (a+i == b || s[a+i] < s[b+i]) {b += max(0, i-1); break;}
+		if (s[a+i] > s[b+i]) { a = b; break; }
+	}
+	return a;
+}
+
+int main()
+{
+        string v;
+
+        cin>>v;
+
+        rotate(v.begin(), v.begin()+min_rotation(v), v.end());
+
+        cout<<v;
+
+
+}
